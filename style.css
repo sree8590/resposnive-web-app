@@ -1,0 +1,42 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fb;
+    color: #333;
+    margin: 0;
+}
+.hero {
+    background-color: #e8f0ff;
+    color: #222;
+}
+
+.feature-card,
+.service-card,
+.contact-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px lightgray;
+}
+
+.services {
+    background-color: #e8f0ff;
+}
+
+.contact-card {
+    max-width: 600px;
+    margin: auto;
+}
+
+.btn {
+    border-radius: 5px;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+@media (max-width: 576px) {
+    .hero h1 {
+        font-size: 28px;
+    }
+}
